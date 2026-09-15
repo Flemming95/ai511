@@ -224,6 +224,8 @@ def matrix_polynomial():
     matrix_a_cubed = matrix_a_squared @ matrix_a
     return -matrix_a_cubed + 9 * matrix_a_squared - 15 * matrix_a
 
+print(matrix_polynomial())
+
 # Task 20^ - Array Creation
 import numpy as np
 def structured_matrix_product():
